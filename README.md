@@ -3,9 +3,9 @@
 ## Description
 Service that simulates a robot moving in an office space and will be cleaning the places this robot visits. The path of the robot's movement is described by the starting coordinates and move commands. After the cleaning has been done, the robot reports the number of unique places cleaned. The service will store the results into the database and return the created record in JSON format. The service listens to HTTP protocol on port 5000.
 
-Request method: POST
+Request method: `POST`
 
-Request path: /clean
+Request path: `/clean`
 
 Input criteria:
 - 0 ≤ number of commands elements ≤ 10000
