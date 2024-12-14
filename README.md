@@ -37,9 +37,8 @@ The resulting value will be stored in a table named **executions** together with
 
 Stored record example:
 
-
 | ID   | Timestamp                  | Commands | Result| Duration |
--------------------------------------------------------------------
+| ---- | -------------------------- | -------- | ----- | -------- |
 | 1234 | 2018-05-12 12:45:10.851596 | 2        | 4     | 0.000123 |
 
 ## Technologies
